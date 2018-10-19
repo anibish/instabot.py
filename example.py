@@ -14,8 +14,8 @@ bot = InstaBot(
     password="password",
     like_per_day=1000,
     comments_per_day=0,
-    tag_list=['follow4follow', 'f4f', 'cute', 'l:212999109'],
-    tag_blacklist=['rain', 'thunderstorm'],
+    tag_list=['tag1', 'tag2', 'bangalore', 'picoftheday'],
+    tag_blacklist=['nude', 'sex'],
     user_blacklist={},
     max_like_for_one_tag=50,
     follow_per_day=300,
@@ -40,15 +40,7 @@ bot = InstaBot(
     # Use unwanted_username_list to block usernames containing a string
     ## Will do partial matches; i.e. 'mozart' will block 'legend_mozart'
     ### 'free_followers' will be blocked because it contains 'free'
-    unwanted_username_list=[
-        'second', 'stuff', 'art', 'project', 'love', 'life', 'food', 'blog',
-        'free', 'keren', 'photo', 'graphy', 'indo', 'travel', 'art', 'shop',
-        'store', 'sex', 'toko', 'jual', 'online', 'murah', 'jam', 'kaos',
-        'case', 'baju', 'fashion', 'corp', 'tas', 'butik', 'grosir', 'karpet',
-        'sosis', 'salon', 'skin', 'care', 'cloth', 'tech', 'rental', 'kamera',
-        'beauty', 'express', 'kredit', 'collection', 'impor', 'preloved',
-        'follow', 'follower', 'gain', '.id', '_id', 'bags'
-    ],
+    unwanted_username_list=[ 'sex', 'nude' ],
     unfollow_whitelist=['example_user_1', 'example_user_2'])
 while True:
 
