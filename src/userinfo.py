@@ -9,8 +9,7 @@ class UserInfo:
     '''
     This class try to take some user info (following, followers, etc.)
     '''
-    user_agent = ("Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 "
-                  "(KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36")
+    user_agent = user_agent = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36")
     url_user_info = "https://www.instagram.com/%s/"
     url_list = {
         "ink361": {
